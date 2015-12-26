@@ -1,5 +1,3 @@
-# Developer Hut Core
-
 This repository is a growing collection of commonly used code written by the Developer Hut team. The repository is currently quite small, containing only code for our communications library, but expect it to grow at a decent pace.
 
 ## FluentEmail
