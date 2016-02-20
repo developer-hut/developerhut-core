@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.net xdt:Transform="Remove">
+    <mailSettings>
+      <smtp from="mail@domain.com">
+        <network host="myserver.com" port="25" userName="username" password="password" enableSsl="true" />
+      </smtp>
+    </mailSettings>
+  </system.net>
+</configuration>
+

@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Transforms\web.config.uninstall.xdt" />
+    <None Include="Transforms\web.config.install.xdt" />
     <None Include="Transforms\app.config.uninstall.xdt" />
     <None Include="Transforms\app.config.install.xdt" />
   </ItemGroup>
