@@ -30,6 +30,6 @@ namespace DeveloperHut.Core.Communication.Email
 
         IFluentEmail WithPriority(MailPriority priority);
 
-        void Send(bool ssl);
+        void Send();
     }
 }

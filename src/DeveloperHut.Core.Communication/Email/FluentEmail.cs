@@ -119,7 +119,6 @@ namespace DeveloperHut.Core.Communication.Email
 
         public IFluentEmail WithPlainTextBody(string body)
         {
-            message.IsBodyHtml = false;
             message.Body = body;
 
             return this;
@@ -135,9 +134,8 @@ namespace DeveloperHut.Core.Communication.Email
             return this;
         }
 
-        public void Send(bool ssl = false)
+        public void Send()
         {
-            client.EnableSsl = ssl;
             client.Send(message);
         }
 

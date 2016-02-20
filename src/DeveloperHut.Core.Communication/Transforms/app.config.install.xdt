@@ -3,7 +3,7 @@
   <system.net xdt:Transform="Insert">
     <mailSettings>
       <smtp from="mail@domain.com">
-        <network host="myserver.com" port="25" userName="username" password="password" />
+        <network host="myserver.com" port="25" userName="username" password="password" enableSsl="true"/>
       </smtp>
     </mailSettings>
   </system.net>
