@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DeveloperHut.Core.Communication")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Developer Hut Communication Library")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Developer Hut")]
-[assembly: AssemblyProduct("DeveloperHut.Core.Communication")]
-[assembly: AssemblyCopyright("Copyright © 2015")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("Copyright © 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
