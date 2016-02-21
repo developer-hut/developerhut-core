@@ -18,7 +18,7 @@ The FluentEmail class provides an easy way to send emails, using fluent LINQ-lik
 
 Using the library dramatically simplifies the way we send email, as seen by the example below.
 
-```chsarp
+```csharp
 using (var email = new FluentEmail())
 {
     email.WithRecipient("unknown-client@developerhut.co.za")
